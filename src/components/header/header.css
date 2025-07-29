@@ -4,6 +4,12 @@ header {
   align-items: center;
   height: 12vh;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* right: 0; */
+  /* border: 2px solid red; */
+  width: 100%;
 }
 
 header a {
