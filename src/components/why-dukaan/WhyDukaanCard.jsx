@@ -9,9 +9,9 @@ function WhyDukaanCard({ flexD, imgUrl, heading, paragraphs, iconImg }) {
       <div className="why-dukaan-right">
         <h3>{heading}</h3>
 
-        {paragraphs.map((p) => {
+        {paragraphs.map((p, i) => {
           return (
-            <p>
+            <p key={i}>
               <img src={iconImg} alt="" />
               {p}
             </p>

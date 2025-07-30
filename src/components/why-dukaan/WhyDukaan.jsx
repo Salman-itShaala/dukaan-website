@@ -60,6 +60,7 @@ function WhyDukaan() {
       {cards.map((card) => {
         return (
           <WhyDukaanCard
+            key={card.heading}
             flexD={card.flexD}
             imgUrl={card.imgUrl}
             heading={card.heading}
