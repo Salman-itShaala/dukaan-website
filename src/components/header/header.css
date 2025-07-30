@@ -10,6 +10,7 @@ header {
   /* right: 0; */
   /* border: 2px solid red; */
   width: 100%;
+  backdrop-filter: blur(8px);
 }
 
 header a {
